@@ -61,6 +61,7 @@ install() {
 
   git clone https://github.com/mjeanrichard/creality_k2.git
   cd creality_k2
+  chmod o+x ./install.sh
 }
 
 download_files() {
